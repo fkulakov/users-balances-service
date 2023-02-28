@@ -22,6 +22,10 @@ composer install
 ```
 
 ```bash
+cp .env.example .env
+```
+
+```bash
 ./vendor/bin/sail up
 ```
 Then go to the `laravel.test` container and run the following commands:
