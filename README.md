@@ -12,9 +12,15 @@
 ```bash
 git clone git@github.com:fkulakov/users-balances-service.git
 ```
+
 ```bash
 cd users-balances-service
 ```
+
+```bash
+composer install
+```
+
 ```bash
 ./vendor/bin/sail up
 ```
